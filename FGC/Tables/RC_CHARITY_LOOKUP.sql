@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[RC_CHARITY_LOOKUP](
+	[CHARITY_NAME] [varchar](100) NULL,
+	[ADDRESS] [varchar](1000) NULL,
+	[REGISTERED_CHARITY_NUMBER] [varchar](50) NULL,
+	[CHARITY_ID] [varchar](100) NULL,
+	[CHARITY_CODE] [varchar](100) NULL,
+	[CHARITY_DESC] [varchar](100) NULL,
+	[CHARITY_ADDRESS_ID] [char](10) NULL,
+	[DATE_CREATED] [datetime] NULL
+) ON [PRIMARY]

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="82d9a294-2232-495a-835f-e52f8e9f0bd3" ChangeDateTime="05/18/2018 14:33:49">
+    <Property Name="ElementName" Value="[dbo].[Transaction].[OverrideSource]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Transaction]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OverrideCharity" />
+  </Operation>
+</Operations>

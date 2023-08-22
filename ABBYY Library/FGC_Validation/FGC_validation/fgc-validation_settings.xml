@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes"?>
+<Settings xmlns="http://tempuri.org/Settings.xsd">
+  <SettingsTable>
+    <Key>dsn</Key>
+    <Data>dsn=abbyy_sql</Data>
+  </SettingsTable>
+  <SettingsTable>
+    <Key>dbconnection</Key>
+    <!--<Data>Data Source=.\sqlexpress;Initial Catalog=FGC;Integrated Security=True</Data>-->
+    <Data>Data Source=.\sqlexpress2017;Initial Catalog=FGC;Integrated Security=True</Data>
+  </SettingsTable>
+  <SettingsTable>
+    <Key>exportpath_vouchers</Key>
+    <Data>c:\Click2Scan\Export\Vouchers\</Data>
+  </SettingsTable>
+  <SettingsTable>
+    <Key>exportpath_misc</Key>
+    <Data>c:\Click2Scan\Export\Misc\</Data>
+  </SettingsTable>
+  <SettingsTable>
+    <Key>exportpath_gae</Key>
+    <Data>c:\Click2Scan\Export\GAE\</Data>
+  </SettingsTable>
+  <SettingsTable>
+    <Key>exportpath_rpp</Key>
+    <Data>c:\Click2Scan\Export\RPP\</Data>
+  </SettingsTable>
+  <SettingsTable>
+    <Key>exportpath_rpplife</Key>
+    <Data>c:\Click2Scan\Export\RPP-Life\</Data>
+  </SettingsTable>
+</Settings>

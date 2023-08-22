@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FGC" Class="DataLookupDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\sqlexpress;Initial Catalog=FGC;Integrated Security=True" SettingsObjectName="FGC_validation.My.MySettings" SettingsPropertyName="FGCConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.RC_CHARITY_LOOKUP" Member="Charities">
+    <Type Name="Charity">
+      <Column Name="CHARITY_NAME" Member="Name" Storage="_CHARITY_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ADDRESS" Member="Address" Storage="_ADDRESS" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="REGISTERED_CHARITY_NUMBER" Member="RegNumber" Storage="_REGISTERED_CHARITY_NUMBER" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CHARITY_CODE" Member="Number" Storage="_CHARITY_CODE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Charity_Id" Member="CharityID" Type="System.String" CanBeNull="false" />
+      <Column Name="Charity_Address_Id" Member="CharityAddressID" Type="System.String" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RC_LODGE_LOOKUP" Member="Lodges">
+    <Type Name="Lodge">
+      <Column Name="MASONIC_ORG_CODE" Member="Number" Storage="_MASONIC_ORG_CODE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ORG_NAME" Member="Name" Storage="_ORG_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PROVINCE" Member="Province" Storage="_PROVINCE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RC_MEMBER_LOOKUP" Member="Members">
+    <Type Name="Member">
+      <Column Name="TITLE" Member="Title" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="INITIALS" Member="Initials" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FAMILY_NAME" Member="Surname" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="GIVEN_NAME" Member="Firstname" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="POSTCODE" Member="Postcode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ADDRESS1" Member="Address1" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="ADDRESS2" Member="Address2" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="ADDRESS3" Member="Address3" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="ADDRESS4" Member="Address4" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="ADDRESS5" Member="Address5" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="blanket_GA_decl_flag" Member="Blanket" Type="System.String" DbType="VarChar(1)" CanBeNull="false" />
+      <Column Name="DOB" Type="System.String" DbType="Varchar(50)" CanBeNull="true" />
+      <Column Name="PER_NUM" Member="MemberNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UPPER_FAMILY_NAME" Member="uSurname" Type="System.String" DbType="VarChar(100)" CanBeNull="false" />
+      <Column Name="UPPER_GIVEN_NAME" Member="uFirstname" Type="System.String" DbType="VarChar(200)" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RC_CHEST_LOOKUP" Member="Chests">
+    <Type Name="Chest">
+      <Column Name="CHEST_ID" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CHEST_NUMBER" Member="Number" Storage="_CHEST_NUMBER" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CHEST_NAME" Member="Name" Storage="_CHEST_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DATE_CREATED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PROVINCE" Member="Province" Storage="_PROVINCE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
